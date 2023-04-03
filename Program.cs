@@ -61,6 +61,17 @@
             Console.Write("\n");
         }
     }
+     public static int FindingTraceMatrix(SquareMatrix Matrix)
+    {
+        int SumDiagonal = 0;
+        for (int numberCol = 0; numberCol < Matrix.Size; numberCol++) 
+        {
+
+        }
+    }
+}
+public static class ExtensionMethods
+{
     public static SquareMatrix MatrixTransposition(SquareMatrix Matrix)
     {
         SquareMatrix NewMatrix = new SquareMatrix();
@@ -73,15 +84,8 @@
         }
         return NewMatrix;
     }
-    public static int FindingTraceMatrix(SquareMatrix Matrix)
-    {
-        int SumDiagonal = 0;
-        for (int numberCol = 0; numberCol < Matrix.Size; numberCol++) 
-        {
-
-        }
-    }
 }
+
 
 public class BigSize : System.Exception
 {
